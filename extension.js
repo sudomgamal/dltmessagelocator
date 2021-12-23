@@ -78,18 +78,18 @@ function createserver() {
                 console.log("OKAYZ");
 
                 await vscode.commands.executeCommand('list.focusPageUp');
-                await sleep(200);
+                await sleep(300);
                 await vscode.commands.executeCommand('workbench.action.keepEditor');
                 // vscode.commands.executeCommand('search.action.openInEditor');
                 // await vscode.commands.executeCommand('searchOpenAllResults.open');
-                await sleep(200);
+                await sleep(300);
 
                 await vscode.commands.executeCommand('search.action.focusNextSearchResult').then(function () {
                     console.log(`rrrrrrrrrrr: "000000000000000k"`);
                 }, err => {
                     console.error(`Error: ${err}`);
                 });
-                await sleep(200);
+                await sleep(300);
 
             }, err => {
                 console.error(err);
