@@ -1,4 +1,4 @@
-# logmessagelocator
+# LogMessageLocator
 
 This plugin is used with log viewer applications (like DLT log viewer and others) to quickly locate and jump to the log message in the code to make code invistigation easier.
 
